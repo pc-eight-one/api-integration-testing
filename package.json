@@ -1,0 +1,21 @@
+{
+  "name": "api-integration-testing",
+  "version": "1.0.0",
+  "description": "A comprehensive, **production-ready** solution for testing modern APIs with a powerful Kotlin DSL and extensible plugin architecture.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
