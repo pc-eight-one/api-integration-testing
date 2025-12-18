@@ -1,0 +1,140 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Kotlin
+*.kotlin_module
+.kotlin
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Logs
+*.log
+logs/
+
+# Test Reports
+test-output/
+test-results/
+*.html
+*.xml
+allure-results/
+allure-report/
+
+# Node.js (for documentation)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+.yarn-integrity
+
+# Documentation build
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Generated files
+generated/
+**/generated-sources/
+
+# CLI build artifacts
+cli/build/
+cli/dist/
+cli/*.jar
+
+# Plugin build artifacts
+intellij-plugin/build/
+intellij-plugin/out/
+
+# Test data
+test-data/
+*.csv
+*.json
+!src/**/resources/**/*.json
+!src/**/resources/**/*.csv
+
+# Load test results
+load-test-results/
+performance-reports/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# API keys and secrets
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database
+*.db
+*.sqlite
+
+# Coverage
+*.lcov
+.nyc_output/
+coverage/
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*

@@ -1,0 +1,6 @@
+target/
+*.iml
+test-output/
+allure-results/
+allure-report/
+load-test-results/
